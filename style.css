@@ -2,4 +2,47 @@ body {
 	background-image: url('image.jpg');
 	background-size: cover;
 	color: white;
+
+	font-family: 'Abel', sans-serif;
+	font-size: 1em;
+}
+
+h1, h2, h3 {
+	font-family: impact;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	color: aqua;
+	text-align: center;
+	font-size: 2em;
+}
+
+#logo h1 {
+	line-height: 150px;
+	font-size: 5em;
+}
+
+#three-columns {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 30px 30px;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+#columnone {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+#columntwo {
+	float: left;
+	width: 300px;
+}
+
+#columnthree {
+	float: right;
+	width: 300px;
 }
